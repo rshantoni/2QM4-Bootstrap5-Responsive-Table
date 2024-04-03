@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl7/1L_dstPt3HV5HzF6Gvk/e9T9hXmJ58bldgTk+" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 2rem;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 0.75rem;
+            border: 1px solid #dddddd;
+        }
+
+        th {
+            background-color: #f0f0f0;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        @media (max-width: 767.98px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Restaurant Menu</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Invoice</th>
+                    <th>Customer Name</th>
+                    <th>Ship</th>
+                    <th>Item Name</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                    <th>Purchased Price</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>0001</td>
+                    <td>Olivia</td>
+                    <td>Aslum</td>
+                    <td>Margherita Pizza</td>
+                    <td>Tomato sauce, mozzarella cheese, and fresh basil</td>
+                    <td>$25.99</td>
+                    <td>$24.00</td>
+                    <td>Processing</td>
+                </tr>
+                <tr>
+                    <td>0002</td>
+                    <td>Amelia</td>
+                    <td>Astorga</td>
+                    <td>Pepperoni Pizza</td>
+                    <td>Tomato sauce, mozzarella cheese, and pepperoni</td>
+                    <td>$22.99</td>
+                    <td>$21.00</td>
+                    <td>On hold</td>
+                </tr>
+                <tr>
+                    <td>0003</td>
+                    <td>Isca</td>
+                    <td>Bato</td>
+                    <td>Hawaiian Pizza</td>
+                    <td>Tomato sauce, mozzarella cheese, ham, and pineapple</td>
+                    <td>$20.99</td>
+                    <td>$19.00</td>
+                    <td>Processing</td>
+                </tr>
+                <tr>
+                    <td>0004</td>
+                    <td>Lily</td>
+                    <td>Binongtoan</td>
+                    <td>White Bianca</td>
+                    <td>Garlic, Ricotta, Mozzarella</td>
+                    <td>$18.99</td>
+                    <td>$17.00</td>
+                    <td>Delivered</td>
+                </tr>
+                <tr>
+                    <td>0005</td>
+                    <td>Ava</td>
+                    <td>Binotong</td>
+                    <td>Sicilian</td>
+                    <td>Thin crust, Tomato sauce, Cheese</td>
+                    <td>$16.99</td>
+                    <td>$15.00</td>
+                    <td>Delivered</td>
+                </tr>
+                <tr>
+                    <td>0006</td>
+                    <td>Freya</td>
+                    <td>Blumentrit</td>
+                    <td>Maltese</td>
+                    <td>Potato, Fresh tomato, Anchovies, Olives, Rosemary</td>
+                    <td>$14.99</td>
+                    <td>$13.00</td>
+                    <td>Delivered</td>
+                </tr>
+                <tr>
+                    <td>0007</td>
+                    <td>Pauleen</td>
+                    <td>Bobonon</td>
+                    <td>French Bread</td>
+                    <td>French bread sliced lengthwise, tomato sauce, cheese pepperoni</td>
+                    <td>$12.99</td>
+                    <td>$11.00</td>
+                    <td>Delivered</td>
+                </tr>
+                <tr>
+                    <td>0008</td>
+                    <td>Sophia</td>
+                    <td>Borseth</td>
+                    <td>Baked Ziti</td>
+                    <td>Ziti, Tomato sauce, Ricotta, Mozzarella</td>
+                    <td>$10.99</td>
+                    <td>$9.00</td>
+                    <td>Delivered</td>
+                </tr>
+                <tr>
+                    <td>0009</td>
+                    <td>Grace</td>
+                    <td>Buenavista</td>
+                    <td>French Bread</td>
+                    <td>French bread sliced lengthwise, tomato sauce, cheese pepperoni</td>
+                    <td>$9.99</td>
+                    <td>$8.00</td>
+                    <td>Delivered</td>
+                </tr>
+                <tr>
+                    <td>0010</td>
+                    <td>Willow</td>
+                    <td>Bugho</td>
+                    <td>Bagel</td>
+                    <td>Tomato sauce, Cheese and Pepperoni baked on Bagel Halves</td>
+                    <td>$8.99</td>
+                    <td>$7.00</td>
+                    <td>Delivered</td>
+                </tr>
+                <tr>
+                    <td>0011</td>
+                    <td>Mia</td>
+                    <td>Buri</td>
+                    <td>Grandma Slice</td>
+                    <td>Square slices with tomato sauce on top of cheese</td>
+                    <td>$7.99</td>
+                    <td>$7.00</td>
+                    <td>Delivered</td>
+                </tr>
+                <tr>
+                    <td>0012</td>
+                    <td>Isabella</td>
+                    <td>Cabadsan</td>
+                    <td>Tuna And Sweet Corn</td>
+                    <td>Tuna, sweet corn, cheddar cheese</td>
+                    <td>$6.99</td>
+                    <td>$6.00</td>
+                    <td>Delivered</td>
+                </tr>
+                <tr>
+                    <td>0013</td>
+                    <td>Diasy</td>
+                    <td>Calaasan</td>
+                    <td>Four Cheese Special</td>
+                    <td>Mozzarella, Cheddar, Feta, Parmesan</td>
+                    <td>$5.99</td>
+                    <td>$5.00</td>
+                    <td>Delivered</td>
+                </tr>
+                <tr>
+                    <td>0014</td>
+                    <td>Elsie</td>
+                    <td>Cambahanon</td>
+                    <td>Vegetarian Special</td>
+                    <td>Mushrooms, Onions, Green peppers, Tomatoes, Olives, Pineapple</td>
+                    <td>$4.99</td>
+                    <td>$4.00</td>
+                    <td>Delivered</td>
+                </tr>
+                <tr>
+                    <td>0015</td>
+                    <td>Evie</td>
+                    <td>Cambolao</td>
+                    <td>Spicy Maxican</td>
+                    <td>Green peppers, Banana peppers, Red onions, Mushrooms, Jalapeno peppers</td>
+                    <td>$3.99</td>
+                    <td>$3.00</td>
+                    <td>Delivered</td>
+                </tr>
+                <tr>
+                    <td>0016</td>
+                    <td>Florence</td>
+                    <td>Canvertudes</td>
+                    <td>Mediterranean Special</td>
+                    <td>Onions, Green peppers, Black Olives, Tomatoes, Spanish</td>
+                    <td>$2.99</td>
+                    <td>$2.00</td>
+                    <td>Delivered</td>
+                </tr>
+                <tr>
+                    <td>0017</td>
+                    <td>Ella</td>
+                    <td>Capiz</td>
+                    <td>Veggie Lite</td>
+                    <td>Onions, Green peppers, Pineapple, Ginger, Tomatoes, Cilantro</td>
+                    <td>$2.99</td>
+                    <td>$1.00</td>
+                    <td>Delivered</td>
+                </tr>
+                <tr>
+                    <td>0018</td>
+                    <td>Emily</td>
+                    <td>Cavite</td>
+                    <td>Marinara</td>
+                    <td>Marinara sauce, Garlic, Olive oil, Basil, Oregano</td>
+                    <td>$1.99</td>
+                    <td>$1.00</td>
+                    <td>Delivered</td>
+                </tr>
+                <tr>
+                    <td>0019</td>
+                    <td>Evelyn</td>
+                    <td>Cogon</td>
+                    <td>Mazza</td>
+                    <td>Tomato sauce, Mozzarella, Bacon, Eggs, Onions, Chili peppers</td>
+                    <td>$5.99</td>
+                    <td>$5.00</td>
+                    <td>Delivered</td>
+                </tr>
+                <tr>
+                    <td>0020</td>
+                    <td>Luna</td>
+                    <td>Dapdap</td>
+                <td>Margherita</td>
+                    <td>Tomato sauce, Mozzarella, Olive oil, Basil leaves</td>
+                    <td>$5.99</td>
+                    <td>$5.00</td>
+                    <td>Delivered</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>        
+                            
+                                    
